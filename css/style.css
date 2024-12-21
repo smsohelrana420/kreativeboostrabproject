@@ -157,3 +157,55 @@ img{
 #pricing{
     margin-top: 50px;
 }
+.pricing{
+    text-align: center;
+}
+.pricing i{
+    font-size: 20px;
+    color: var(--primary);
+    margin-right: 2px;
+}
+.pricing ul{
+    margin-left: 15px;
+}
+.pricing ul li {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    
+}
+.team-member img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icons a{
+    width: 34px;
+    height: 34px;
+    background-color: var(--primary);
+    color: #fff;
+    border: 2px solid var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 5px;
+    transition: all 0.4s ease;
+}
+.social-icons a:hover{
+    color: var(--primary);
+    background-color: transparent;
+}
+
+form input.form-control{
+    height: 56px;
+}
+form .form-control{
+    border:transparent;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.02);
+}
